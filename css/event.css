@@ -1,0 +1,17 @@
+
+.whale {
+    position: relative;
+    display: none;
+    margin-bottom: -54%;
+}
+.whbut {
+    position: absolute;
+    background-color: lightgray;
+    margin-top: 60%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid black;
+    padding-bottom: 30%;
+    border-radius: 50%;
+    animation: whsm 7s infinite;
+}

@@ -1,0 +1,83 @@
+
+.ocean {
+    display: inline-block;
+    width: 33%;
+    padding-bottom: 33%;
+    background-color:  black;
+    border-radius: 45%;
+    animation:  drift 16s infinite;
+}
+.ocle {
+    display: inline-block;
+    position: absolute;
+    left: 16.5%;
+    width: 33%;
+    padding-bottom: 33%;
+    background-color:  black;
+    border-radius: 43%;
+    animation:  drift 20s infinite;
+}
+.oclele {
+    display: inline-block;
+    position: absolute;
+    left: -16.5%;
+    width: 33%;
+    padding-bottom: 33%;
+    background-color:  black;
+    border-radius: 43%;
+    animation:  drift 20s infinite;
+}
+.ocri {
+    display: inline-block;
+    position: absolute;
+    right: 16.5%;
+    width: 33%;
+    padding-bottom: 33%;
+    background-color:  black;
+    border-radius: 43%;
+    animation:  drift 20s infinite;
+}
+.ocriri {
+    display: inline-block;
+    position: absolute;
+    right: -16.5%;
+    width: 33%;
+    padding-bottom: 33%;
+    background-color:  black;
+    border-radius: 43%;
+    animation:  drift 20s infinite;
+}
+.ocline {
+    margin-top: -10%;
+    display: block;
+    width: 100%;
+    background-color: lightgray;
+    padding-bottom: 200%;
+}
+.allocean {
+    position: relative;
+    transition: 1.5s ease-in-out;
+    z-index: -1;
+}
+@media(max-width: 400px) {
+    .allocean {
+        top: 100px;
+    }
+    .boat {
+        top: 100px;
+    }
+    .whale {
+        top: 100px;
+    }
+}
+@media(max-width: 500px) {
+    .allocean {
+        top: 50px;
+    }
+    .boat {
+        top: 50px;
+    }
+    .whale {
+        top: 50px;
+    }
+}
